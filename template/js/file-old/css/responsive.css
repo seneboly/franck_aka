@@ -1,0 +1,43 @@
+/* Medium Devices, Desktops */
+@media screen and (max-width: 991px) {
+
+}
+
+/* 1.3. SMALL DEVICES, TABLETS */
+@media screen and (max-width: 767px) {
+
+}
+
+/* 1.4. SMALL DEVICES, SMARTPHONES */
+@media screen and (max-width: 480px) {
+  /**
+    * Formation Accademique
+    */
+    .std {
+	    font-size: 1.3em;
+	}
+    .col-md-10._item-shadow {
+	    min-height: 7.2em;
+	}
+  /**
+    * Compétences organisationnelles
+    */
+	.serviceEl .bigIcon + div {
+	    padding-top: 40px;
+	    height: unset;
+	}
+  /**
+    * Expériences professionnelles
+    */
+	.exp-nav-tabs {
+	    float: initial;
+	}
+	dl {
+	    margin-left: 0;
+	}
+}
+
+/* 1.5. CUSTOM, IPHONE RETINA */
+@media screen and (max-width: 380px) {
+
+}

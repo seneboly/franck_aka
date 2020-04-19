@@ -1,0 +1,201 @@
+@charset "UTF-8";
+#acx_social_widget {
+  position: absolute;
+  z-index: 10000;
+  min-width: 142px; }
+
+#acx_social_widget img, #acurax_si_widget_simple img,
+#short_code_si_icon img {
+  margin-left: 1px; }
+
+#acx_social_widget img:hover, #acurax_si_widget_simple img:hover,
+#short_code_si_icon img:hover {
+  opacity: 0.8; }
+
+.hidden-lg {
+	display: none;
+}
+/*
+* Banner
+*/
+.hero-content-style1 h2 {
+  font-size: 45px;
+  letter-spacing: 2px; }
+/*
+* RÉALISATIONS
+*/
+a.g-item {
+    height: 13rem;
+}
+span.inner {
+    display: table;
+    width: 100%;
+}
+.gallery-content .g-zoom-in .g-item .inner-content {
+    display: table-cell;
+    vertical-align: middle;
+    height: 13rem;
+}
+.g-zoom-in .g-item img {
+    margin: auto;
+}
+/*
+* Sidebar left
+*/
+#downloadcv {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+/*
+* A propos
+*/
+.img-apropos {
+  border-radius: 4px !important;
+  -webkit-box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.45); }
+
+.x-cont-apropos {
+  background-color: #556299; }
+  .x-cont-apropos > div.container {
+    padding: 40px 0px; }
+  .x-cont-apropos p {
+    color: #cec9c9; }
+
+.cont-img-apropos {
+  -webkit-transform: scale(1.2);
+  transform: scale(2); }
+
+/*
+* Formation
+*/
+.h4-formation {
+  font-weight: 500; }
+
+/*
+* Compétences
+*/
+.fontfamily {
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: -0.05em;
+  font-weight: 600; }
+
+[data-icon="ic:outline-stop"] {
+  margin-right: 5px;
+  margin-bottom: 1px;
+  opacity: 0.7; }
+
+[data-icon="fa:stop"] {
+  font-size: 6px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  opacity: 0.7; }
+
+[data-icon="mdi:record-circle-outline"] {
+  margin-right: 5px;
+  font-size: smaller; }
+
+.h3-inside-dl {
+  font-size: 0.96rem;
+  font-weight: 400;
+  color: #cf0000; }
+
+dt {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: small; }
+
+dl {
+  margin-left: 43px; }
+
+dd {
+  font-size: small;
+  margin: 0 0 0 25px; }
+/*
+* Loisirs
+*/
+.vieasso-ul > li {
+    font-size: small;
+    margin: 0 0 0 3em;
+}
+/*
+* Contacter
+*/
+.contactForm textarea {
+  resize: none;
+  height: 95px; }
+
+.contactForm textarea, .contactForm input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid #e6e6e6 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: none;
+  transition: none;
+  color: #444 !important;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 9px 14px;
+  margin: 2px 0 19px 0; }
+
+.contactForm input[type="submit"] {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  border: 0;
+  background: #cf0000;
+  color: #ffffff !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 12px 105px;
+  margin: 2px 0 10px 0; }
+
+h3.std {
+  font-weight: 300;
+  letter-spacing: -0.04rem; }
+
+.content-contacter {
+  background-color: #f8f9f9;
+  padding: 86px 25px 25px;
+  min-height: 290px; }
+  .content-contacter p {
+    margin-bottom: 0; }
+
+/* ****************************** */
+/* 1.4. SMALL DEVICES, SMARTPHONES */
+@media screen and (max-width: 480px) {
+	.hero-content-style1 h2 {
+	    font-size: 35px;
+	}
+	.img-apropos {
+	    display: table;
+	    margin: auto;
+	    transform: scale(0.6);
+	}
+	dl {
+	    margin-left: 15px;
+	}
+	.alignright {
+		margin-left: unset;
+	}
+	.hidden-lg {
+		display: block;
+	}
+  .g-col-4 .g-item {
+      width: 50%;
+  }
+}
